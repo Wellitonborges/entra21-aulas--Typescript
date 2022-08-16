@@ -17,6 +17,13 @@ public apresentar():string{
     return `Oi eu sou ${this.nome} e tenho ${this.idade} e ganho ${this.getvalorHora} por hora de aula ministrada` 
 }
 
+public calcularSalario():number{
+    let salario:number = 0
+    //falta terminar
+  return salario
+   };
+
+
 
 public get getvalorHora():number{
     return this.valorHora

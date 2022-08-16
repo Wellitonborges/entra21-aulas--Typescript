@@ -9,6 +9,12 @@ export class Professor {
     apresentar() {
         return `Oi eu sou ${this.nome} e tenho ${this.idade} e ganho ${this.getvalorHora} por hora de aula ministrada`;
     }
+    calcularSalario() {
+        let salario = 0;
+        //falta terminar
+        return salario;
+    }
+    ;
     get getvalorHora() {
         return this.valorHora;
     }
